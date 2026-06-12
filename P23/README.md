@@ -49,7 +49,7 @@ alternando para 200 ms a cada toque (e voltando a 600 ms no toque seguinte).
 
 ## Modificações realizadas
 
-1. **Troca de GPIO** (LED → 21, botão → 19): comportamento idêntico — o LED
+1. **Troca de GPIO** (LED → 21, botão → 19): comportamento idêntico, o LED
    alternou o piscar entre 600 ms e 200 ms a cada toque, normalmente.
 2. **Alteração do período principal** (600/200 ms → 1500/50 ms): a diferença
    entre os dois modos ficou muito mais perceptível — de um piscar lento

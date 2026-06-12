@@ -14,7 +14,7 @@
 
 ## Modificações Realizadas
 
-### Modificação 1 — Alteração dos Tempos
+### Modificação 1: Alteração dos Tempos
 
 #### Alteração no Código
 
@@ -29,7 +29,7 @@ O LED passou a permanecer ligado por menos tempo e apagado por mais tempo. O pad
 
 ---
 
-### Modificação 2 — Troca de Pino GPIO
+### Modificação 2: Troca de Pino GPIO
 
 #### Alteração no Código
 
@@ -47,7 +47,7 @@ O funcionamento permaneceu inalterado, demonstrando que o GPIO 5 também pode se
 
 ---
 
-### Modificação 3 — Adição de um Segundo LED
+### Modificação 3: Adição de um Segundo LED
 
 #### Alteração no Circuito
 

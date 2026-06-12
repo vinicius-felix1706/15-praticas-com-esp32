@@ -1,10 +1,5 @@
 # P03: Botão aciona LED somente enquanto pressionado
 
-| | |
-|---|---|
-| **Nível** | Fácil |
-| **Componentes** | ESP32 DevKit, protoboard, botão tátil, LED vermelho, resistor |
-| **Conceitos** | GPIO digital, Serial Monitor, ajuste de parâmetros |
 
 ## Objetivo
 

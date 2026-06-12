@@ -96,16 +96,6 @@ vez de funcionar como um "interruptor" (estado persistente), passou a
 funcionar como um acionamento "momentâneo" — aceso apenas durante a pressão,
 exigindo contato contínuo para permanecer ligado.
 
-## Conclusão do grupo
-
-O comportamento do circuito depende tanto da configuração de pinos quanto da
-lógica de software aplicada à leitura do botão. A troca de GPIOs não altera o
-funcionamento, desde que sejam pinos digitais válidos. O tempo de debounce é
-crítico para a confiabilidade do sistema — valores muito baixos permitem que
-ruídos mecânicos do botão gerem alternâncias indesejadas do LED. Já a
-alteração entre lógica de borda e lógica de nível muda completamente a
-experiência de uso: de um "interruptor" com memória de estado para um botão
-"momentâneo".
 
 ## Questionamentos
 

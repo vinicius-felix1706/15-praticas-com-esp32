@@ -58,7 +58,7 @@ alternar de forma lenta e sincronizada, perdendo a diferença de ritmo entre
 eles.
 
 **2. Quando `delay()` pioraria a prática?**
-Justamente no objetivo central — manter dois LEDs em ritmos diferentes e
+Justamente no objetivo central, manter dois LEDs em ritmos diferentes e
 independentes. Com `delay()`, os dois ficariam subordinados ao mesmo
 intervalo de bloqueio.
 

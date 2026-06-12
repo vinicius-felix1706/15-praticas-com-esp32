@@ -1,4 +1,4 @@
-#P04: Botão alterna estado do LED
+# Botão alterna estado do LED
 
 ## Objetivo
 

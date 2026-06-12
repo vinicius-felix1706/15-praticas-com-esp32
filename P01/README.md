@@ -80,13 +80,6 @@ Os LEDs passaram a funcionar de forma alternada. Enquanto um LED permanece ligad
 
 ---
 
-## Conclusão do Grupo
-
-As modificações realizadas permitiram observar como alterações simples no código e no circuito influenciam diretamente o comportamento do sistema.
-
-A mudança dos tempos de acionamento mostrou que a velocidade de piscada depende dos valores atribuídos às variáveis de temporização. A troca de GPIO confirmou que diferentes pinos do ESP32 podem ser utilizados como saídas digitais sem alterar o funcionamento do programa. Já a adição de um segundo LED demonstrou a facilidade de expansão do projeto, exigindo apenas a configuração de um novo pino e pequenas alterações na lógica do programa.
-
----
 
 # Questionamentos
 

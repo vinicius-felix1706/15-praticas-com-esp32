@@ -58,7 +58,7 @@ alternando para 200 ms a cada toque (e voltando a 600 ms no toque seguinte).
 3. **Lógica do botão: borda → ativo em nível** (mantém `periodo = 50` apenas
    enquanto pressionado, voltando a 1500 ms ao soltar): o LED só piscou rápido
    durante a pressão contínua do botão, retornando ao ritmo lento
-   imediatamente ao soltar — diferente do comportamento original, que mantinha
+   imediatamente ao soltar, diferente do comportamento original, que mantinha
    o novo período mesmo após soltar o botão.
 
 ## Conclusão
@@ -67,7 +67,7 @@ A lógica não bloqueante permite que o LED continue piscando normalmente
 enquanto o botão é monitorado em paralelo, sem travar o sistema. A diferença
 entre os períodos define o quão perceptível é o efeito do botão, e a troca de
 lógica (borda → nível) muda completamente a forma como o ajuste é
-percebido — de uma alteração persistente para uma alteração temporária.
+percebido, de uma alteração persistente para uma alteração temporária.
 
 ## Questionamentos
 
@@ -83,7 +83,7 @@ acompanhando diretamente o estado do botão.
 **2. Em que situação o uso de `delay()` pioraria esta prática em relação à solução atual?**
 
 O uso de `delay()` pioraria a prática porque o LED deixaria de piscar de
-forma independente do botão — qualquer `delay()` usado para o piscar do LED
+forma independente do botão, qualquer `delay()` usado para o piscar do LED
 bloquearia a leitura do botão durante esse intervalo, atrasando a detecção do
 toque e tornando a resposta do sistema imprevisível.
 

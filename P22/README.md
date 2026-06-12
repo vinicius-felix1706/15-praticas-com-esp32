@@ -36,7 +36,7 @@ LED1 no GPIO 2 (300 ms), LED2 no GPIO 4 (800 ms), ambos com resistores de
 
 ## Modificações realizadas
 
-1. **Troca de GPIO** (LED1 → 21, LED2 → 22): comportamento idêntico — cada
+1. **Troca de GPIO** (LED1 → 21, LED2 → 22): comportamento idêntico, cada
    LED manteve seu ritmo, confirmando que o pino não afeta a lógica.
 2. **Redução do período do LED1** (300 ms → 100 ms): LED1 piscou muito mais
    rápido, quase em tremulação, enquanto LED2 (800 ms) seguiu inalterado.

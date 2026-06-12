@@ -95,13 +95,6 @@ percebida do que o vermelho, mesmo recebendo o mesmo sinal e a mesma corrente
 limitada pelo resistor, evidenciando a diferença de tensão direta e eficiência
 luminosa entre cores de LED.
 
-## Conclusão do grupo
-
-O comportamento temporal do LED é determinado pelas constantes de tempo no
-código, e o pino GPIO funciona apenas como uma interface configurável — sua
-troca não altera a lógica do programa. Já a escolha do componente físico (cor
-do LED) não afeta o tempo, mas influencia diretamente a percepção visual de
-brilho e intensidade.
 
 ## Questionamentos
 
